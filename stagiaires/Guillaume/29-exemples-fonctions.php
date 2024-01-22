@@ -14,7 +14,7 @@ function helloWorld(){
 
 echo helloWorld(); 
 
-function lanceDe(int $faces){
+function lanceDe(int $faces):array|bool{
     $array = array();
     for($i=1; $i<=$faces;$i++){
         $array[$i] = $i;
