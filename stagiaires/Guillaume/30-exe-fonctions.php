@@ -4,9 +4,10 @@
 
 
 function nombreCarré(int $nombre = 2){
-    return $nombre *= 2;
+    $nombre = $nombre*$nombre;
+    return $nombre;
 } 
-    echo $nombre;
+    echo nombreCarré(5);
 
 // puis affichez le carré de 5, 10 et 15 en utilisant cette fonction.
 
